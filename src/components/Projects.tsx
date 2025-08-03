@@ -1,40 +1,47 @@
 import ProjectCard from "./ProjectCard.tsx";
+import GymImg from '../assets/projects/Gym_Management.png';
+import ParkingImg from '../assets/projects/Smart_Parking_Management.jpg';
+import LibraryImg from '../assets/projects/Library-Management-System.webp';
+import EcommerceImg from '../assets/projects/e_Commerce.webp';
+import CulinaryImg from '../assets/projects/The Culinary Academy Management.jpg';
+import LaptopImg from '../assets/projects/Laptop_Shop_Management.jpg';
+
 
 const projects = [
     {
         title: "Gym Website",
         description: "A dynamic and responsive web application designed for gym management. Built with Spring Boot on the backend, it offers a seamless experience for both gym administrators and members.",
-        image: "src/assets/projects/Gym_Management.png",
+        image: GymImg,
         link: "https://github.com/harsha200210/Workout_Plan_Generator.git",
     },
     {
         title: "Smart Parking Management",
         description: "A scalable and intelligent parking solution built with Spring Boot microservices architecture. This system automates the process of locating, booking, and managing parking spaces in real time.",
-        image: "src/assets/projects/Smart_Parking_Management.jpg",
+        image: ParkingImg,
         link: "https://github.com/harsha200210/Smart_Parking_Management_System.git",
     },
     {
         title: "BookClub Library Management",
         description: "A full-stack web application designed to manage readers, books, and lending activities for modern libraries. Built with the MERN stack, the system streamlines library operations and enhances user engagement.",
-        image: "src/assets/projects/Library-Management-System.webp",
+        image: LibraryImg,
         link: "https://github.com/harsha200210/Book_Club_Library_Management.git",
     },
     {
         title: "Ecommerce Website",
         description: "A dynamic online shopping platform developed using Java Server Pages (JSP) and Servlets, designed to simulate a real-world e-commerce experience with user-friendly navigation and secure transactions.",
-        image: "src/assets/projects/e_Commerce.webp",
+        image: EcommerceImg,
         link: "https://github.com/harsha200210/Ecommerce.git",
     },
     {
         title: "The Culinary Academy Management",
         description: "A comprehensive desktop application developed as part of the ORM (Object-Relational Mapping) coursework using JavaFX for the UI and Hibernate for seamless database interaction",
-        image: "src/assets/projects/The Culinary Academy Management.jpg",
+        image: CulinaryImg,
         link: "https://github.com/harsha200210/The-Culinary-Academy-Management.git",
     },
     {
         title: "Laptop Shop Management",
         description: "A desktop-based application developed as part of Object-Oriented Programming (OOP) coursework to manage the operations of a laptop retail shop. Built using Java and integrated with MySQL for persistent data storage.",
-        image: "src/assets/projects/Laptop_Shop_Management.jpg",
+        image: LaptopImg,
         link: "https://github.com/harsha200210/Laptop_Shop_Management.git",
     },
 ];
